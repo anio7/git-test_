@@ -14,5 +14,6 @@ Create a Repo on Github
 11.Type code . in the terminal to activate project in git.
 - this was taken from the Odin Project
 
+#Note to self--ALWAYS COMMIT BEFORE PUSHING!!
 
 use git pull for pulling the repo or git fetch for a particular version or branch.
