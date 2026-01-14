@@ -1,0 +1,18 @@
+Create a Repo on Github
+
+1.After visiting the github site - login or signUp....click the (+)Plus sign for creating a new repository.
+2.Give the repo a name and wait for the availability of the name to be cleared. Select a README.md option and click create.
+3.Click the green CODE button and copy the URL.
+4.Open the terminal in Vscode and create a directory(aka folder) using mkdir <dir_name> and then cd into the dir.
+5.Type git clone <url> and paste the URL you just copied in the CLI.
+6.While in dir type git remote -v to see the address paths for the repo.
+7.Create a file using touch <file_name> to create a file and type code <file_name> to open file in vscode.
+*PS if you encounter errors go into command palette on vscode and search for shell command for code. 
+8.To see the status of the file type - git status and start tracking the file us git add <file_name> or git add . for all files.
+9.Add comments using git commit -m "<comment_here>"
+10.Type git push for upload the dir to the repo.
+11.Type code . in the terminal to activate project in git.
+- this was taken from the Odin Project
+
+
+use git pull for pulling the repo or git fetch for a particular version or branch.
