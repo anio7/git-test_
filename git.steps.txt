@@ -9,9 +9,11 @@ Create a Repo on Github
 7.Create a file using touch <file_name> to create a file and type code <file_name> to open file in vscode.
 *PS if you encounter errors go into command palette on vscode and search for shell command for code. 
 8.To see the status of the file type - git status and start tracking the file us git add <file_name> or git add . for all files.
-9.Add comments using git commit -m "<comment_here>"
-10.Type git push for upload the dir to the repo.
-11.Type code . in the terminal to activate project in git.
+9.Add comments using git commit -m "<comment_here>" 
+10. You can use git checkout as well.
+11.Type git push for upload the dir to the repo. or git push origin master/main
+
+sidenot:Type code . in the terminal to activate project in git.
 - this was taken from the Odin Project
 
 #Note to self--ALWAYS COMMIT BEFORE PUSHING!!
