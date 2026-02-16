@@ -19,3 +19,12 @@ sidenot:Type code . in the terminal to activate project in git.
 #Note to self--ALWAYS COMMIT BEFORE PUSHING!!
 
 use git pull for pulling the repo or git fetch for a particular version or branch.
+
+
+for MERGING REPOS 
+cd /
+git init
+git remote add origin <your-repo-url>
+git pull
+git checkout main -f
+git branch --set-upstream-to origin/main
