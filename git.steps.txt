@@ -55,3 +55,6 @@ git commit -am "Your comments"
 git remote add origin <link to Github repo>
 git remote -v
 git push -u origin master
+
+for setting up local repo to cloud
+git push --set-upstream origin master
