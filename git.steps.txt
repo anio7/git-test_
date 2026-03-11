@@ -43,6 +43,9 @@ git remote add origin <URL>
 git branch -M main
 git push -u origin main
 
+and ammending commit comments
+git commit --amend -m "Your comments"
+
 Creating a repo from VS-code 
 Ctrl + Shft + P -> then type publish to github and follow the instructions via prompt
 
