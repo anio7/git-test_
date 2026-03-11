@@ -45,3 +45,10 @@ git push -u origin main
 
 Creating a repo from VS-code 
 Ctrl + Shft + P -> then type publish to github and follow the instructions via prompt
+
+or the hard way -
+git init 
+git commit -am "Your comments"
+git remote add origin <link to Github repo>
+git remote -v
+git push -u origin master
