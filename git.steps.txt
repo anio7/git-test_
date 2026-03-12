@@ -48,6 +48,9 @@ git commit --amend -m "Your comments"
 
 Creating a repo from VS-code 
 Ctrl + Shft + P -> then type publish to github and follow the instructions via prompt
+git add .
+git commit -m "my commit"
+git push --set-upstream origin master
 
 or the hard way -
 git init 
